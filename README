@@ -15,7 +15,7 @@ SMS app verification using google_text and google_drive gems. All the magic happ
 - In column C you will list the test case number.
 - In column D you can list the start test case number. This is optional.
 
-![alt tag](https://raw.github.com/isonic1/sms/master/gdoc.png)
+![alt tag](https://github.com/isonic1/sms/blob/master/gdoc.png)
 
 
 - Copy the spreadsheet key. e.g. https://docs.google.com/spreadsheet/ccc?key=XXXYYYYZZZZ&
