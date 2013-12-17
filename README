@@ -1,7 +1,7 @@
 SMS App Test
 ============
 
-SMS app verification with google_text and google_drive gems.
+SMS app verification using google_text and google_drive gems. All the magic happens thankfully with these gems
 
 ## Requirements
 - ruby 1.9.x
@@ -15,7 +15,7 @@ SMS app verification with google_text and google_drive gems.
 - In column C you will list the test case number.
 - In column D you can list the start test case number. This is optional.
 
-
+![alt tag](https://raw.github.com/isonic1/sms/master/gdoc.png)
 
 
 - Copy the spreadsheet key. e.g. https://docs.google.com/spreadsheet/ccc?key=XXXYYYYZZZZ&
@@ -24,4 +24,4 @@ SMS app verification with google_text and google_drive gems.
 ## Run Tests
 - cd ./sms
 - bundle install
-- bundle exec rspec spec
+- bundle exec rspec
