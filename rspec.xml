@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" failures="1" errors="0" time="28.308305" timestamp="2013-12-17T13:52:08-05:00">
+  <properties/>
+  <testcase classname="spec.sms_spec" name="Testing my SMS application Should send sms and verify expected response" time="28.307931">
+    <failure message="expected &quot;(1/1) TMAGIC alert: Ride booked with Alexandria Yellow Cab from 44 Canal Center Plaza, 22314 for  1:55 pm. To cancel reply: NOTAXI. Msg &amp;amp; data rates may apply&quot; to include &quot;Ride booked with Alexandria Yellow Cab from 44 Canal Center Plz&quot;" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[expected "(1/1) TMAGIC alert: Ride booked with Alexandria Yellow Cab from 44 Canal Center Plaza, 22314 for  1:55 pm. To cancel reply: NOTAXI. Msg &amp; data rates may apply" to include "Ride booked with Alexandria Yellow Cab from 44 Canal Center Plz"
+./spec/sms_spec.rb:49:in `block (3 levels) in <top (required)>'
+./spec/sms_spec.rb:24:in `each'
+./spec/sms_spec.rb:24:in `block (2 levels) in <top (required)>']]>
+    </failure>
+  </testcase>
+</testsuite>

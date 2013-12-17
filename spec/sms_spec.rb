@@ -16,10 +16,10 @@ describe 'Testing my SMS application' do
       
     #get spreadsheet data
     gdoc = GoogleDocs.new
-    col1 = gdoc.getData(1,5) #(col1,row5) Set to max tc #. This really should be a variable...
-    col2 = gdoc.getData(2,5)
-    col3 = gdoc.getData(3,5)
-    #startc = gdoc.getData(4,0) #use this if you want to start at different test number.
+    col1 = gdoc.getData(1)
+    col2 = gdoc.getData(2)
+    col3 = gdoc.getData(3)
+    #startc = gdoc.getData(4) #use this if you want to start at different test number.
     
     col1.zip(col2, col3).each do |send, receive, test_num|
     #next if test_num.to_i < startc.to_i 
