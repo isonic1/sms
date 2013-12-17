@@ -1,0 +1,7 @@
+--color
+-p
+--require=./spec/spec_helper.rb
+--format=documentation
+--format RspecJunitFormatter
+--out rspec.xml
+--format progress

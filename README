@@ -1,0 +1,14 @@
+wunderkinder
+============
+
+Web automation w/ capybara
+
+## Requirements
+- ruby 1.9.x
+- bundler
+- firefox mac os
+
+## Run Tests
+- cd ./wunderkinder
+- bundle install
+- bundle exec rspec spec/wunderlist.rb
