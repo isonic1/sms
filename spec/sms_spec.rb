@@ -39,7 +39,7 @@ describe 'Testing my SMS application' do
           puts "Waiting for sms reply, refreshing... #{refresh}"
           messages = GoogleText::Message.unread
           refresh = refresh + 1
-        if (refresh == 60) then
+        if (refresh == $timeout) then
           raise "NO SMS RECEIVED FOR TEST# #{test_num}\n"  
           break       
         end
