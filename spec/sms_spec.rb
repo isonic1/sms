@@ -19,7 +19,7 @@ describe 'Testing my SMS application' do
     col1 = gdoc.getData(1,10)
     col2 = gdoc.getData(2,10)
     col3 = gdoc.getData(3,10)
-    #startc = gdoc.getData(4,1) #use this if you want to start at different test number.
+    #startc = gdoc.getData(4,0) #use this if you want to start at different test number.
     
     col1.zip(col2, col3).each do |send, receive, test_num|
     #next if t.to_i < startc 

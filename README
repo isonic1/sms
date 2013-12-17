@@ -1,14 +1,23 @@
-wunderkinder
+SMS App Test
 ============
 
-Web automation w/ capybara
+SMS app verification with google_text and google_drive gems.
 
 ## Requirements
 - ruby 1.9.x
 - bundler
-- firefox mac os
+- A gmail account
+
+## Setup
+- In google drive, create a new Spreadsheet. Name it whatever you want.
+- In column A you will list the text you want to send.
+- In column B you will list the expected responses.
+- In column C you will list the test case number.
+- In column D you can list the start test case number. This is optional.
+- Copy the spreadsheet key. e.g. https://docs.google.com/spreadsheet/ccc?key=XXXYYYYZZZZ&
+- Enter your test variables in ./spec/settings.rb 
 
 ## Run Tests
-- cd ./wunderkinder
+- cd ./sms
 - bundle install
-- bundle exec rspec spec/wunderlist.rb
+- bundle exec rspec spec
