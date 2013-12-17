@@ -17,7 +17,7 @@ SMS app verification using google_text and google_drive gems. All the magic than
 
 ![Alt text](https://github.com/isonic1/sms/blob/master/gdoc.png?raw=true)
 
-- Copy the spreadsheet key. e.g. docs.google.com/spreadsheet/ccc?key=XXy2zZ&
+- Copy the spreadsheet key. e.g. docs.google.com/spreadsheet/ccc?key=**XXy2zZ**&
 - Enter your test variables in ./spec/settings.rb 
 
 ## Run Tests
