@@ -6,7 +6,7 @@ SMS app verification with google_text and google_drive gems.
 ## Requirements
 - ruby 1.9.x
 - bundler
-- A gmail account
+- A google voice account and number
 
 ## Setup
 - In google drive, create a new Spreadsheet. Name it whatever you want.
@@ -14,6 +14,10 @@ SMS app verification with google_text and google_drive gems.
 - In column B you will list the expected responses.
 - In column C you will list the test case number.
 - In column D you can list the start test case number. This is optional.
+
+
+
+
 - Copy the spreadsheet key. e.g. https://docs.google.com/spreadsheet/ccc?key=XXXYYYYZZZZ&
 - Enter your test variables in ./spec/settings.rb 
 
