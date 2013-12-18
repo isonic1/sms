@@ -1,7 +1,7 @@
-SMS App Test
-============
+SMS App Test with google voice
+==============================
 
-SMS app verification using google_text and google_drive gems. All the magic thankfully happens with these gems. I just used them together to make a simple sms app verication test suite. Enjoy!
+SMS app verification using google_text and google_drive gems. All the magic thankfully happens with these gems. I just put them together to make a simple sms app verification test suite. Enjoy!
 
 ## Requirements
 - ruby 1.9.x
