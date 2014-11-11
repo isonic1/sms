@@ -4,10 +4,8 @@ describe 'Testing my SMS application' do
  
   it 'Should send sms and verify expected response' do
     
-    if GoogleText::Message.unread.empty? == false
-      
+    if !GoogleText::Message.unread.empty?
       print "Marking old texts as read\n"
-    
         until GoogleText::Message.unread.count == 0 do
           messages = GoogleText::Message.unread
           messages.first.mark_as_read
@@ -51,5 +49,4 @@ describe 'Testing my SMS application' do
       messages.first.mark_as_read
     end 
   end
-    
 end
